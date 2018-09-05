@@ -1,1 +1,6 @@
-<script><script>
+<script>
+alert('');
+alert('');
+alert('');
+
+<script>
