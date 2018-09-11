@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: navy;
+}
+
+h1 {
+    color:  ;
+    margin-left: 20px;
+}
+
+text1 {
+
+	color: white;
+	width: 400px;
+	margin-right: 20px;
+	float: left;
+}
+
+text2{
+color: white;
+	width: 400px;
+	margin-right: 80px;
+	float: right;
+
+}
+
+img {
+
+float:right;
+
+}
+
+div1 {
+
+position: auto;
+}
+div{
+
+	position: auto;
+	margin-left:10px;
+
+}
