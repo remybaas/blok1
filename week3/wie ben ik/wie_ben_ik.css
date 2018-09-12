@@ -1,4 +1,12 @@
+body{
+	background-image: url('images/9.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	;
+   
 
+}
 
 ul{
 list-style-type:none;
@@ -6,6 +14,11 @@ margin:0;
 padding:0;
 overflow:hidden;
 background-color:grey;
+}
+
+p{
+color:red;
+
 }
 
 li{
@@ -25,14 +38,32 @@ li a
 		background-color:DarkCyan ;
 
    }
-
-
+  .body{
+ background-image:"1.jpg";
+}
 .center {
     margin: left;
     width: 50%;
     border: 3px solid #73AD21;
-    padding: 10px;
+    padding: 1%;
 }
+.center1 {
+	position: ;
+	top:39%;
+    margin: ;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 1%;
+}
+
+.pos{
+	bottom:70px;
+	left:10px;
+
+
+}
+
+
 .footer {
 
 position:fixed;
@@ -42,6 +73,7 @@ width: 100%;
 background-color: red;
 color: white;
 text-align: center;
+color:white;
 		}		
 
 		img{
