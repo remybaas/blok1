@@ -14,22 +14,29 @@ text1 {
 	color: white;
 	width: 400px;
 	margin-right: 20px;
-	float: left;
+	float: inherit;
 }
 
 text2{
 color: white;
 	width: 400px;
 	margin-right: 80px;
-	float: right;
+	float: inherit;
 
 }
 
 img {
 
+float:left;
+
+}
+
+img1{
+
 float:right;
 
 }
+
 
 div1 {
 
@@ -37,7 +44,7 @@ position: auto;
 }
 div{
 
-	position: auto;
+	position: right;
 	margin-left:10px;
 
 }
