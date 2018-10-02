@@ -1,0 +1,105 @@
+#lettertype{
+font-family: 'Roboto', sans-serif; 
+text-align: left;
+
+}
+body{
+	background-color: black;
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+}
+
+#nav_bar{
+
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:grey;
+
+}
+
+li a{
+
+	display:block;
+	color:navy;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	}
+
+li a:hover{
+
+	background-color:DarkCyan ;
+}
+
+
+#myHeader{
+color:white;
+border-bottom:1px solid white;
+margin-left:120px;
+padding:10px;
+}
+
+#in{
+color:white;
+margin-left:0px;
+padding:10px;
+}
+
+#in_header{
+	color:white;
+	padding:10px;
+	margin-left:120px;
+	
+}
+
+#bereiding{
+	color:white;
+	margin-left:120px;
+	
+}
+
+#bereidingsstappen{
+	color:white;
+	margin-left:120px;
+	text-align: justify;
+}
+
+#recept{
+	color:white;
+	margin-left: 120px;
+	position: block;
+   
+
+}
+
+#LI{
+	color:white;
+	padding:5px;
+
+}
+
+#img{
+	color:white;
+	display:block;
+	margin-left:120px;
+
+}
+
+#tip{
+	
+	display:inline;
+	background-color:grey;
+	border-radius:12px;
+	background-color:solid;
+	padding:3px;
+	margin-left: 120px;
+
+}
+
+
+div{
+		padding:5px;
+
+}
