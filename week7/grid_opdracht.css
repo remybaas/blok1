@@ -1,0 +1,113 @@
+.grid-container {
+  font-size:14px;
+  margin:  0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto   ;
+  grid-gap: 5px;
+  width: 1160px;
+  background-color: white;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+.grid-item {
+  list-style: none;
+  background-color: white;
+  font-size:14px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+#logo{
+  float:left;
+  font-family: 'Lato', sans-serif;
+}
+#banner{
+  font-size:14px;
+  border-image: 1px ;
+  float:left;
+  margin:5px;
+  padding-bottom:40px;
+  font-family: 'Lato', sans-serif;
+}
+ul {
+  font-size:14px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+   
+}
+li {
+    float: left;
+}
+
+li a {
+    position: center;
+    font-size:14px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header{
+  text-align: left;
+  font-size:14px;
+  background-image:url(img/banner_bg.png);
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 4;
+}
+.navbar{
+  font-size:14px;
+  padding:7px;
+  background-image:url(img/header_bg.png);
+  background-color: white; 
+  grid-column: 1 / span 4;
+  grid-row: 1;
+}
+.main1{
+  text-align: left;
+  width: 305px;
+  font-position:center;
+  font-size:14px;
+  grid-column: 1;
+  grid-row: 6;
+  font-family: 'Lato', sans-serif;
+}
+
+.main2{
+  text-align: left;
+  width: 305px;
+  font-size:14px;
+  grid-column: 2;
+  grid-row: 6;
+  font-family: 'Lato', sans-serif;
+}
+
+.main3{
+  text-align: left;
+  width: 305px;
+  font-size:14px;
+  grid-column: 3;
+  grid-row: 6;
+  font-family: 'Lato', sans-serif;
+}
+.footer {
+
+  background-image:url(img/footer_bg.png);
+  font-size:14px;
+  grid-column: 1 / span 4;
+  grid-row: 7;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.text{
+  font-size:14px;
+  text-align: center;
+  text-decoration: ;
+  font-family: 'Lato', sans-serif;
+}
