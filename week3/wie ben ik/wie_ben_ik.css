@@ -46,14 +46,14 @@ li a:hover{
 	}
 .center {
 
-    margin: left;
+    margin: 20px;
     width: 50%;
     border: 3px solid #73AD21;
     padding: 1%;
 	}
 
 .center1 {
-
+	margin: 20px;
 	position: ;
 	top:39%;
     margin: ;
@@ -96,7 +96,7 @@ li a:hover{
 	}		
 
 img{
-
+border:5px;
 float:right;
 	}
 

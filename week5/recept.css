@@ -9,7 +9,7 @@ body{
 	background-repeat: no-repeat;
 }
 
-#nav_bar{
+.nav_bar{
 
 	list-style-type:none;
 	margin:0;
@@ -32,39 +32,39 @@ li a:hover{
 }
 
 
-#myHeader{
+.myHeader{
 	color:white;
 	border-bottom:1px solid white;
 	margin-left:120px;
 	padding:10px;
 }
 
-#in{
+.in{
 	color:white;
 	margin-left:0px;
 	padding:10px;
 }
 
-#in_header{
+.in_header{
 	color:white;
 	padding:10px;
 	margin-left:120px;
 	
 }
 
-#bereiding{
+.bereiding{
 	color:white;
 	margin-left:120px;
 	
 }
 
-#bereidingsstappen{
+.bereidingsstappen{
 	color:white;
 	margin-left:120px;
 	text-align: justify;
 }
 
-#recept{
+.recept{
 	color:white;
 	margin-left: 120px;
 	position: block;
@@ -72,13 +72,13 @@ li a:hover{
 
 }
 
-#LI{
+.LI{
 	color:white;
 	padding:5px;
 
 }
 
-#img{
+.img{
 	color:white;
 	display:block;
 	margin-left:120px;

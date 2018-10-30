@@ -1,4 +1,4 @@
-bhvcbgc x/**
+/*
  * The robot arm constructor
  * 
  * @param {HTMLCanvasElement} canvas The canvas element used for drawing the robot arm on.
