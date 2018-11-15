@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 <head>
-  <title>home</title>
+  <title>kleding</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="auto.css">
+  <link rel="stylesheet" type="text/css" href="kleding.css">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 
 <div class="grid-container">
   <div class="grid-item header">
-    <img id="banner" src="img/banner.jpg"  alt="">
+      <div class="w3-content"  id="banner"  style="max-width:800px">
+
+  <img class="mySlides" src="img/gucci2.jpg" alt="" >
+  <img class="mySlides" src="img/calvin2.png" alt="" >
+  <img class="mySlides" src="img/supreme1.jpg" alt="" >
+
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+  </div>   
+      </div>
+
+
     <h1>Lorem Ipsum</h1><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
+ width="690px" height="320px"
    
-    
   </div>
   <div class="grid-item navbar">
-     <img class="logo" src="img/logo.png" alt="" >
-      <ul class="ul">
-        <li><a href="home">Home</a></li>
+     <img id="logo" alt="" src="img/logo.png" >
+      <ul id="ul">
+        <li><a href="grid_opdracht.html">Home</a></li>
         <li><a href="auto.html">Auto's</a></li>
         <li><a href="kleding.html">Kleding</a></li>
         <li><a href="#home">Blog</a></li>
@@ -36,8 +48,8 @@
       </ul>
   </div>
   <div class="grid-item main1">
-      <img class="banner" src="img/fade-slider.png" alt="" >
-      <h1>Lorem Ipsum</h1><br>
+      <img class="banner1" src="img/gucci2.jpg" alt="">
+      <h1>GUCCI</h1><br>
      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -48,8 +60,8 @@
      >><a href="#">click here to see more</a>
   </div>
   <div class="grid-item main2">
-   <img class="banner" src="img/nivo-slider.png" alt="" >
-    <h1>Lorem Ipsum</h1><br>
+   <img class="banner1" src="img/calvin2.png" alt="">
+    <h1>Calvin Klein</h1><br>
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -60,8 +72,8 @@
    >><a href="#">click here to see more</a>
   </div>  
   <div class="grid-item main3">
-    <img class="banner" src="img/bonus-3d-slider.png" alt="" >
-     <h1>Lorem Ipsum</h1><br>
+    <img class="banner1" src="img/supreme1.jpg" alt="">
+     <h1>Supreme</h1><br>
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -75,6 +87,25 @@
       Contact me via : <a href="https://gmail.com">Remybaas22112000@gmail.com</a>
   </div>
 </div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
 
 </body>
 </html>

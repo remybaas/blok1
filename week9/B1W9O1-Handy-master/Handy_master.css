@@ -1,54 +1,50 @@
-body{
-	width:1000px;
-
-}
-
-
-.image_header{
-	width:1000px;
-
-}
-
-
-
-/*navbar*/
-
-ul {
-    list-style-type: none;
+*{
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color:  black;
-    margin-left: 200px;
-    margin-right: 100px; 
+}
+body{
+        font-family: 'Archivo', sans-serif;
+}
+.logo{
+    margin-top: 10px;
+    padding-left: 245px;
+}
+header img{
+    padding-top: 25px;
+    height: 100%;
+    width: 100%;
+}
+nav {
+    position: absolute; 
+}
+nav ul{
     width: 1000px;
-    z-index: 1;
-
+    margin-left: 230px;
+    background-color: #222931;
+    display: inline-block;
 }
-
-li {
-    float: left;
-    z-index: ;
-
+li{
+    display: inline-block;
 }
-
+a{
+    color: white;
+}
+li:hover, a:hover{
+    background-color: #ffe718;
+}
 li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
-
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #D7EA0C ;
+    background-color: #ffe718 ;
 }
-
 li.dropdown {
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -57,33 +53,298 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #ffe718}
 
 .dropdown:hover .dropdown-content {
+    background-color: #222931;
     display: block;
 }
-
-/*navbar end*/
-
-img{
- font-size:14px;
- background-image:url("img/header.jpg");
- grid-column: 1 / span 4;
- grid-row: 2 / span 4;
- width: 100%;
- height: 100%;
- margin-top: -20px;
- position: fixed;
- background-repeat: no-repeat;
- z-index: -1;
- background-size: contain;
+div.banner1, .left{
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:  275px;
+ display: inline-block;
 }
+div.banner2, .centered{
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:  600px;
+ display: inline-block;
+}
+div.banner3, .right{
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:  925px;
+ display: inline-block;
+}
+.left{
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:  600px;
+}
+.centered {
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:  600px;
+   
+}
+.right{
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:  600px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100;
+  right: 0;
+  margin-top: 50px;
+  height: 220px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.container:hover .overlay {
+  opacity: 1.5;
+  background-color: rgba(34,41,49,0.8);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.space{
+        margin-left: 200px;
+        padding-top: 50px;
+        font-size: 20px;
+}
+.yellowbar{
+    margin-bottom: 50px;
+    margin-top: 324px;
+    width: 100%;
+    height:150px;
+    background-color:#ffe718;
+}
+.tekst1 , .tekst2 , .button{
+        display: inline;
+}
+
+.tekst2{
+        margin-left: 40px;
+}
+
+.button, .button2{
+    margin-left: 150px;
+}
+.button2{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2:hover{
+    opacity: 0.95;
+    background-color: #222931;
+    color: white;
+}  
+.footer1{
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 50px;
+/* -------------------------------------------------------gele blokjes onder het over ons informatie---- */
+}
+.footerblokje3{
+    background-color: yellow;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 280px;
+    margin-left:  925px;
+    display: inline-block;
+
+}
+.footerblokje2 {
+    background-color: yellow; 
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 600px;
+    margin-top: 280px;
+    display: inline-block;
+
+}
+.footerblokje1{
+    background-color: yellow;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left:  275px;
+    margin-top: 280px;
+    display: inline-block;
+}   
+
+.footerblokje1:hover{
+    background-color: #222931;
+    color:white;
+}
+.footerblokje2:hover{
+    background-color: #222931;
+    color:white;
+}
+.footerblokje3:hover{
+    background-color: #222931;
+    color:white;
+}
+/*-------------------------------------einde----*/
+/*-------------------------------------------------------------------- positie voor fonts van fontawesome en de tekst op de gele balkjes----*/
+.handshake , i{
+    margin-top: -20px;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    position:inline-block;
+    background-repeat: no-repeat;
+}
+.texthandshake{
+    margin-top: -20px;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 110px;
+}
+.toolbox i{
+    padding:0px;
+    margin-top: -20px;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    position:inline-block;
+    background-repeat: no-repeat;
+}
+.texttoolbox{
+    margin-top: -20px;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 110px;
+}
+.textcontact{
+   margin-top: -20px;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.adress:hover{
+    opacity: 0.4;
+}
+.adress{
+    position: absolute;
+}
+.adresstext{
+    margin-left: 70px;
+}
+.mobile{
+    padding-top: 15px
+}
+.mobiletext{
+    padding-top: 30px;
+    margin-left: 70px;
+}
+.mobile:hover{
+    opacity: 0.4;
+}
+.mail{
+    padding-top: 20px;
+}
+.mail:hover{
+    opacity: 0.4;
+}
+.mailtext{
+    padding-top: 20px;
+    margin-left: 70px;
+}
+/*----------------------------------------------------------------------------------------einde fonts en tekst in geen balkje */
+.line{
+    background-color: black;
+    height: 1px;
+    opacity: 0.2;
+    margin-top: 400px;
+    margin-left: 275px;
+    margin-right: 250px;
+}
+
+div.over-ons{
+    position: absolute;
+    width: 475px;
+    height: auto;
+    margin-left: 275px;
+}
+div.contact-ons{
+    position: absolute;
+    width: 475px;
+    height: auto;
+    margin-left: 930px;
+}
+div.end{
+
+    margin-top: 50px;
+    position: absolute;
+}
+footer{
+    width: 1481px;
+    margin-top: 350px;
+    height: 50px;
+    background-color: #222931; 
+    color: white;
+    padding-bottom: 20px;
+}
+footer>p{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+img.img-end, .mobile, img.mail{
+    display: inline;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+}
+
+
